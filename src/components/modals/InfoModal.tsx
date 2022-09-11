@@ -10,7 +10,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="Хъазты фæткытæ" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Базон ныхас. Ис дæм 6 фæлварæны. Аллы фæлварæны фæстæ дæр квадраты хуыз ивдзæн æмæ æмондзæн, цас хæстæг дæ раст дзуаппмæ.
+        Базон дзырд. Ис дæм 6 фæлварæны. Аллы фæлварæны фæстæ дæр квадраты хуыз ивдзæн æмæ æмондзæн, цас хæстæг дæ раст дзуаппмæ.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -26,7 +26,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="Н" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Дамгъæ <b><i>Ф</i></b> ныхасы ис, æмæ лæууы йæ бынаты.
+        Дамгъæ <b><i>Ф</i></b> дзырды ис, æмæ лæууы йæ бынаты.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -42,7 +42,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Дамгъæ <b><i>З</i></b> ныхасы ис, фæлæ йæ бынаты нæ лæууы.
+        Дамгъæ <b><i>З</i></b> дзырды ис, фæлæ йæ бынаты нæ лæууы.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -53,7 +53,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="Л" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Дамгъæ <b><i>А</i></b> ныхасы æппындæр нæй.
+        Дамгъæ <b><i>А</i></b> дзырды æппындæр нæй.
       </p>
 
       {/*<p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
