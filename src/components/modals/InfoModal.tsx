@@ -8,56 +8,55 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Хъазты фæткытæ" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word.
+        Базон ныхас. Ис дæм 6 фæлварæны. Аллы фæлварæны фæстæ дæр квадраты хуыз ивдзæн æмæ æмондзæн, цас хæстæг дæ раст дзуаппмæ.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="Ф"
           status="correct"
         />
-        <Cell value="E" isCompleted={true} />
-        <Cell value="A" isCompleted={true} />
-        <Cell value="R" isCompleted={true} />
-        <Cell value="Y" isCompleted={true} />
+        <Cell value="И" isCompleted={true} />
+        <Cell value="Д" isCompleted={true} />
+        <Cell value="Ы" isCompleted={true} />
+        <Cell value="Н" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        Дамгъæ <b><i>Ф</i></b> ныхасы ис, æмæ лæууы йæ бынаты.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
-        <Cell value="P" isCompleted={true} />
-        <Cell value="I" isCompleted={true} />
+        <Cell value="Г" isCompleted={true} />
+        <Cell value="О" isCompleted={true} />
+        <Cell value="Г" isCompleted={true} />
+        <Cell value="Ы" isCompleted={true} />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="З"
           status="present"
         />
-        <Cell value="O" isCompleted={true} />
-        <Cell value="T" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
+        Дамгъæ <b><i>З</i></b> ныхасы ис, фæлæ йæ бынаты нæ лæууы.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
-        <Cell value="V" isCompleted={true} />
-        <Cell value="A" isCompleted={true} />
-        <Cell value="G" isCompleted={true} />
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="E" isCompleted={true} />
+        <Cell value="Æ" isCompleted={true} />
+        <Cell value="М" isCompleted={true} />
+        <Cell value="Б" isCompleted={true} />
+        <Cell isRevealing={true} isCompleted={true} value="А" status="absent" />
+        <Cell value="Л" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+        Дамгъæ <b><i>А</i></b> ныхасы æппындæр нæй.
       </p>
 
-      <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
+      {/*<p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
         This is an open source version of the word guessing game we all know and
         love -{' '}
         <a
@@ -66,7 +65,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         >
           check out the code here
         </a>{' '}
-      </p>
+      </p>*/}
     </BaseModal>
   )
 }
