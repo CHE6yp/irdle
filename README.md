@@ -56,22 +56,8 @@ Note that guesses are validated against both the length of the solution, and pre
 
 ### How can I create a version in another language?
 
-- !?In [.env](.env):
-  - Update the title and the description?
-  - Set the `REACT_APP_LOCALE_STRING` to your locale
-- Update the strings in [src/constants/strings.ts](src/constants/strings.ts)
-- !Update the "Settings" modal in [src/components/modals/SettingsModal.tsx](src/components/modals/SettingsModal.tsx)
-- !Update the "Info" modal in [src/components/modals/InfoModal.tsx](src/components/modals/InfoModal.tsx)
 - Update the "DatePicker" modal in [src/components/modals/DatePickerModal.tsx](src/components/modals/DatePickerModal.tsx)
-- Update the statistics migration components modal in:
-  -! [src/components/stats/MigrationIntro.tsx](src/components/stats/MigrationIntro.tsx)
-  -! [src/components/stats/EmigratePanel.tsx](src/components/stats/EmigratePanel.tsx)
-  -! [src/components/stats/ImmigratePanel.tsx](src/components/stats/ImmigratePanel.tsx)
-  - [src/components/modals/MigrateStatsModal.tsx](src/components/modals/MigrateStatsModal.tsx)
 - To ensure that migration codes are unique to your application, update the Blowfish encryption key and initialization vector with random 30 character and 8 character strings in [src/constants/settings.ts](src/constants/settings.ts)
-- !If the language has letters that are not present in English update the keyboard in [src/components/keyboard/Keyboard.tsx](src/components/keyboard/Keyboard.tsx)
-- If the language is written right-to-left, prepend `\u202E` (the unicode right-to-left override character) to the return statement of the inner function in `generateEmojiGrid` in
-  [src/lib/share.ts](src/lib/share.ts)
 - To enable replaying past days' games, set `ENABLE_ARCHIVED_GAMES` to `true`
 - Set `DATE_LOCALE` to a suitable locale string as defined in [date-fns](https://github.com/date-fns/date-fns/tree/main/src/locale).
 
@@ -79,7 +65,7 @@ Note that guesses are validated against both the length of the solution, and pre
 
 This repository includes support for Google Analytics or [Plausible Analytics](https://plausible.io), but, by default, this is disabled.
 
-To enable Google Analytics:
+!To enable Google Analytics:
 
 - Create a Google Analytics 4 property and obtain the measurement ID (of the format `G-XXXXXXXXXX`)
 - In [.env](.env), add `REACT_APP_GOOGLE_MEASUREMENT_ID=G-XXXXXXXXXX`
