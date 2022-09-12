@@ -28,7 +28,8 @@ export const shareStatus = (
       solution,
       guesses,
       getEmojiTiles(isDarkMode, isHighContrastMode)
-    )
+    ) +
+    '\n\nirdle.ru'
 
   const shareData = { text: textToShare }
 
