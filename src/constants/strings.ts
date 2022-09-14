@@ -7,7 +7,7 @@ export const WORD_NOT_FOUND_MESSAGE = 'Дзырд нæ фæзынди'
 export const HARD_MODE_ALERT_MESSAGE =
   'Вазыгджын режим æрмæст хъазты райдайæны гæнæн ис!'
 export const HARD_MODE_DESCRIPTION =
-  'Аллы бæрæг дамгъæ хъуамæ уа иннæ фæлварæдты'
+  'Алы бæрæг дамгъæ хъуамæ уа иннæ фæлварæдты'
 export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Цæмæй хуызтæ хуыздæр уынай'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `Раст дзырд уыди "${solution}"`
@@ -25,7 +25,7 @@ export const SHARE_FAILURE_TEXT =
   'Unable to share the results. This feature is available only in secure contexts (HTTPS), in some or all supporting browsers.'
 export const MIGRATE_BUTTON_TEXT = 'Бынат аивын'
 export const MIGRATE_DESCRIPTION_TEXT =
-  'Ам бавнал, цæмæн дæ статистикæ ног гарзæгмæ арвитай.'
+  'Ам бавнал, цæмæй дæ статистикæ ног гарзæгмæ арвитай.'
 export const TOTAL_TRIES_TEXT = 'Æдæппæт фæлварæны'
 export const SUCCESS_RATE_TEXT = 'Уæлахизон бæрц'
 export const CURRENT_STREAK_TEXT = 'Уæлахизон уадздзаг'

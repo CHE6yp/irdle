@@ -10,7 +10,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="Хъазты фæткытæ" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Базон дзырд. Ис дæм 6 фæлварæны. Аллы фæлварæны фæстæ дæр квадраты хуыз ивдзæн æмæ амондзæн, цас хæстæг дæ раст дзуаппмæ.
+        Базон дзырд. Ис дæм 6 фæлварæны. Алы фæлварæны фæстæ дæр квадраты хуыз ивдзæн æмæ амондзæн, цас хæстæг дæ раст дзуапмæ.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">

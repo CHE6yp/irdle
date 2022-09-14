@@ -25,7 +25,7 @@ export const MigrateStatsModal = ({ isOpen, handleClose }: Props) => {
       handleClose={handleClose}
     >
       <p className="mt-4 mb-4 text-sm text-gray-500 dark:text-gray-300">
-        Дæ заронд гарзæгæй миграцийы коды къопи скæн, æмæ йæ бавæр ног гарзæджы.
+        Дæ зæронд гарзæгæй миграцийы коды къопи скæн æмæ йæ бавæр ног гарзæджы.
       </p>
 
       <div className="w-full columns-3 gap-0">
